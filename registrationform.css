@@ -1,0 +1,69 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    color: darkblue;
+    font-size: 49px;
+    margin-top: 5px;
+
+}
+html,body{
+    line-height: 1.4;
+    background-color: whitesmoke;
+    box-shadow: yellow;
+    margin-top: 10px;
+}
+form{
+    margin: 20px auto;
+width: 320px;
+color: steelblue;
+border-radius: 9px;
+gap: 15px;
+}
+input{
+    padding: 10px;
+    font-size: inherit;
+}
+input[type="text"]{
+    display:block;
+    margin-bottom: 25px;
+    width: 100%;
+    border:2px solid steelblue;
+    background-color: burlywood;
+    border-radius:10px;
+}
+input[type="pasword"]{
+    display:block;
+    margin-bottom: 25px;
+    background-color: burlywood;
+    width: 100%;
+    border:2px solid steelblue;
+    border-radius: 10px;
+}
+input[type="number"]{
+    display:block;
+    margin-bottom: 25px;
+    width: 100%;
+    gap: 10px;
+    background-color: burlywood;
+    border:2px solid steelblue;
+    border-radius:10px;
+}
+input[type="email"]{
+    display:block;
+    margin-bottom: 25px;
+    width: 100%;
+    background-color: burlywood;
+    border:2px solid steelblue
+}
+input[type="submit"]{
+    display:block;
+    margin-bottom: 25px;
+    width: 100%;
+    background-color: burlywood;
+    border:2px solid steelblue;
+    border-radius: 10px;
+}
